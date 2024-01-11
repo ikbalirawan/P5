@@ -25,7 +25,7 @@
   <link href="css/responsive.css" rel="stylesheet" />
 
   <style>
-    html{
+    html {
       scroll-behavior: smooth;
     }
 
@@ -57,6 +57,19 @@
       background-color: #111;
     }
 
+    .content {
+      padding-top: 100px;
+    }
+
+    .box .img-box {
+      height: 200px;
+      overflow: hidden;
+    }
+
+    .box .img-box img {
+      width: 100%;
+      height: auto;
+    }
   </style>
 </head>
 
@@ -65,8 +78,8 @@
   <ul>
     <li style="color: white;"><a href="#">𝐂𝐲𝐛𝐞𝐫𝐁𝐮𝐥𝐥𝐲𝐢𝐧𝐠</a></li>
     <li style="float:right"><a href="#home">Home</a></li>
-    <li style="float:right"><a href="#about">About</a></li>
-    <li style="float:right"><a class="active" href="#dampak">Dampak</a></li>
+    <li style="float:right"><a href="#understanding">understanding</a></li>
+    <li style="float:right"><a class="active" href="#impact">Impact</a></li>
   </ul>
   <!-- header section strats -->
   <!-- <header class="header_section">
@@ -115,8 +128,7 @@
             𝑪𝒚𝒃𝒆𝒓𝑩𝒖𝒍𝒍𝒚𝒊𝒏𝒈
           </h1>
           <p>
-            It is a long established fact that a reader will be distracted by the readable content of a page when
-            looking at its layout. The point of using Lorem
+            Ingatlah bahwa kata-kata dan tindakanmu memiliki kekuatan untuk menentukan nasib orang lain.
           </p>
           <div>
             <!-- <a href="" class="slider-link">
@@ -352,28 +364,31 @@
 
   <!-- about section -->
 
-  <section class="about_section" id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="img-box">
-            <img src="images/ciber.jpeg" alt="">
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="detail-box">
-            <div class="heading_container">
-              <h2>
-                About Us
-              </h2>
+  <section class="about_section" id="understanding">
+    <div class="content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="img-box">
+              <img src="images/ciber.jpeg" alt="">
             </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolorem eum consequuntur ipsam repellat
-              dolor soluta aliquid laborum, eius odit consectetur vel quasi in quidem, eveniet ab est corporis tempore.
-            </p>
-            <a href="">
+          </div>
+          <div class="col-md-6">
+            <div class="detail-box">
+              <div class="heading_container">
+                <h2>
+                  Pengertian
+                </h2>
+              </div>
+              <p>
+                Cyberbullying adalah bentuk pelecehan atau intimidasi yang terjadi secara daring atau melalui media
+                digital. Ini melibatkan penggunaan teknologi informasi, seperti ponsel atau internet, untuk menyebarkan
+                pesan atau perilaku merendahkan, mengancam, atau merugikan seseorang secara emosional.
+              </p>
+              <!-- <a href="">
               Read More
-            </a>
+            </a> -->
+            </div>
           </div>
         </div>
       </div>
@@ -432,57 +447,108 @@
 
   <!-- blog section -->
 
-  <section class="blog_section " id="dampak">
-    <div class="container">
-      <div class="heading_container">
-        <h2>
-          Latest From Blog
-        </h2>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/b1.jpg" alt="">
-              <h4 class="blog_date">
+  <section class="blog_section " id="impact">
+    <div class="content">
+      <div class="container">
+        <div class="heading_container">
+          <h2>
+            Dampak
+          </h2>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/emosional.jpeg" alt="">
+                <!-- <h4 class="blog_date">
                 14 <br>
                 July
-              </h4>
-            </div>
-            <div class="detail-box">
-              <h5>
-                Molestiae ad reiciendis dignissimos
-              </h5>
-              <p>
-                alteration in some form, by injected humour, or randomised words which don't look even slightly
-                believable.
-              </p>
-              <a href="">
+              </h4> -->
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Dampak Emosional dan Psikologis:
+                </h5>
+                <p>
+                  - Stres dan Kecemasan <br>
+                  - Depresi
+                </p>
+                <!-- <a href="">
                 Read More
-              </a>
+              </a> -->
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-6">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/b2.jpg" alt="">
-              <h4 class="blog_date">
+
+          <div class="col-md-6">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/sosial.jpg" alt="">
+                <!-- <h4 class="blog_date">
                 15 <br>
                 July
-              </h4>
-            </div>
-            <div class="detail-box">
-              <h5>
-                Dolores vel maiores voluptatem enim
-              </h5>
-              <p>
-                alteration in some form, by injected humour, or randomised words which don't look even slightly
-                believable.
-              </p>
-              <a href="">
+              </h4> -->
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Dampak Sosial:
+                </h5>
+                <p>
+                  - Isolasi<br>
+                  - Stigma dan Pencemaran Nama Baik
+                </p>
+                <!-- <a href="">
                 Read More
-              </a>
+              </a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/akademis.jpeg" alt="">
+                <!-- <h4 class="blog_date">
+                15 <br>
+                July
+              </h4> -->
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Dampak Akademis:
+                </h5>
+                <p>
+                  - Gangguan Konsentrasi dan Belajar <br>
+                  - Ketidakhadiran Sekolah
+                </p>
+                <!-- <a href="">
+                Read More
+              </a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/fisik.jpeg" alt="">
+                <!-- <h4 class="blog_date">
+                15 <br>
+                July
+              </h4> -->
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Dampak Fisik:
+                </h5>
+                <p>
+                  - Gangguan Tidur<br>
+                  - Kesehatan Fisik
+                </p>
+                <!-- <a href="">
+                Read More
+              </a> -->
+              </div>
             </div>
           </div>
         </div>
@@ -494,7 +560,7 @@
 
   <!-- client section -->
 
-  <section class="client_section layout_padding">
+  <!-- <section class="client_section layout_padding">
     <div class="container">
       <div class="heading_container">
         <h2>
@@ -588,7 +654,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- end client section -->
 
@@ -704,8 +770,7 @@
   <footer class="footer_section">
     <div class="container">
       <p>
-        &copy; <span id="displayYear"></span> All Rights Reserved By
-        <a href="https://html.design/">Free Html Templates</a>
+        &copy; <span id="displayYear"></span> Created By | Ikbal | Hasan | Intan |
       </p>
     </div>
   </footer>
